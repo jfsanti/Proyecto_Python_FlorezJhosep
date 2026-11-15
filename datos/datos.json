@@ -1,0 +1,72 @@
+{
+    "usuarios": [
+        {
+            "identificacion": "0000",
+            "nombre": "Admin",
+            "apellidos": "Administrador",
+            "telefono": "555 000111",
+            "correo": "admin@acmeclinic.com",
+            "direccion": "Cl 185 # 26 - 85",
+            "contrasena": "3b612c75a7b5048a435fb6ec81e52ff92d6d795a8b5a9c17070f6a63c97a53b2",
+            "tipo": "administrativo"
+        },
+        {
+            "identificacion": "1234",
+            "nombre": "juan",
+            "apellidos": "centeno",
+            "telefono": "3047907652",
+            "correo": "jcCenteno@gmail.com",
+            "direccion": "calle 40",
+            "contrasena": "2b1f3be9f92a8091c0ce7559d457ac04f9b2fefeea34c6d8b27b9f0db97ca654",
+            "tipo": "medico"
+        }
+    ],
+    "pacientes": [
+        {
+            "identificacion": "\t123456",
+            "nombre": "laura",
+            "apellidos": "gomez",
+            "telefono": "\t3001234567",
+            "correo": "\tlaura@gmail.com",
+            "direccion": "\tCalle 10",
+            "genero": "Femenino",
+            "estado_civil": "Soltero"
+        },
+        {
+            "identificacion": "13579",
+            "nombre": "sara",
+            "apellidos": "jaimes",
+            "telefono": "2051041907",
+            "correo": "saritauwu@gmail.com",
+            "direccion": "calle 50",
+            "genero": "Femenino",
+            "estado_civil": "Soltero"
+        }
+    ],
+    "diagnosticos": [
+        {
+            "fecha": "2026-11-14 18:26:47",
+            "paciente": {
+                "identificacion": "13579",
+                "nombre": "sara",
+                "apellidos": "jaimes"
+            },
+            "medico": {
+                "identificacion": "1234",
+                "nombre": "juan",
+                "apellidos": "centeno",
+                "correo": "jcCenteno@gmail.com"
+            },
+            "sintomas": "fiebre",
+            "diagnostico": "la paciente presento mareos, fiebre, dolor de cabeza",
+            "medicamentos": [
+                {
+                    "medicamento": "robamaridoscetamol",
+                    "cantidad": "1",
+                    "dosis": "3",
+                    "tiempo_aplicacion": "despues de cada comida"
+                }
+            ]
+        }
+    ]
+}
