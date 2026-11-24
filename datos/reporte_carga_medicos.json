@@ -1,0 +1,19 @@
+{
+    "lista de medicos":[
+        {
+            "dentificación": "",
+            "nombre_completo": "",
+            "total_diagnosticos": "",
+            "pacientes_distintos": "",
+            "promedio_sintomas_por_consulta": "",
+            "promedio_medicamentos_por_consulta": ""
+    }
+    ],
+    "resumen":[
+        {
+            "Médico con mayor número de diagnósticos": "",
+            "Médico con mayor número de pacientes distintos": "",
+            "Médico con menor carga (en diagnósticos realizado)": ""
+        }
+    ]
+}
